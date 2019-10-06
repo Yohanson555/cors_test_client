@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import ViewGallery from './components/ViewGallery';
+import Blogger from './components/Blogger';
+import { CookiesProvider } from 'react-cookie';
 
 function App() {
   return (
     <div className="App" >
-      <ViewGallery />
+      <CookiesProvider>
+        <Blogger />
+      </CookiesProvider>
     </div>
   );
 }

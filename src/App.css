@@ -68,3 +68,15 @@
   width: 100%;
   flex: 1;
 }
+
+.float-bottom-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20pt;
+}
